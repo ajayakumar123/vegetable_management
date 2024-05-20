@@ -26,9 +26,7 @@ class Vegetable(db.Model):
         return f'<Vegetable {self.name}>'
 
 
-@app.route('/')
-def hello_world(): 
-    return '<h1>Hello from Flask & Docker</h2>'
+
 
 @app.route('/')
 def index():
